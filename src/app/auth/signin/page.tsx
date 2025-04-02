@@ -1,4 +1,5 @@
 import NaverLoginButton from "@/components/auth/NaverLoginButton";
+import GoogleLoginButton from "@/components/auth/GoogleLoginButton";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -17,8 +18,8 @@ export default function SignInPage() {
         </div>
         
         <div className="space-y-4">
+          <GoogleLoginButton />
           <NaverLoginButton />
-          {/* 다른 소셜 로그인 버튼도 여기에 추가할 수 있습니다 */}
         </div>
         
         <div className="text-center mt-4">
