@@ -11,15 +11,9 @@ export default function Home() {
         <div className="flex justify-center gap-4 mt-8">
           <Link
             href="/auth/signin"
-            className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
+            className="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
           >
-            로그인 페이지로 이동
-          </Link>
-          <Link
-            href="/dashboard"
-            className="px-6 py-3 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 transition-colors"
-          >
-            대시보드로 이동
+            Log-in
           </Link>
         </div>
       </main>
