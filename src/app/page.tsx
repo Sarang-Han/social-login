@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <main className="max-w-4xl w-full">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4">소셜 로그인 모듈</h1>
+          <h1 className="text-4xl font-bold mb-4">소셜 로그인</h1>
         </div>
 
         <div className="flex justify-center gap-4 mt-8">

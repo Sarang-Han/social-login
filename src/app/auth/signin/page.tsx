@@ -10,11 +10,10 @@ export const metadata: Metadata = {
 
 export default function SignInPage() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className="w-full max-w-md p-8 space-y-8 bg-white rounded-lg shadow-md">
+    <div className="flex items-center justify-center min-h-screen">
+      <div className="w-full max-w-md p-8 space-y-6">
         <div className="text-center">
-          <h1 className="text-2xl font-bold">로그인</h1>
-          <p className="mt-2 text-gray-600">소셜 계정으로 로그인하세요</p>
+          <h1 className="text-2xl font-bold">빠른 시작</h1>
         </div>
         
         <div className="space-y-4">
