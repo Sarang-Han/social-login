@@ -16,7 +16,6 @@ export default function SignInPage() {
       <div className="hidden md:flex md:w-1/2 bg-indigo-600 items-center justify-center p-8">
         <div className="max-w-md text-white">
           <h2 className="text-3xl font-bold mb-6">소셜 로그인 데모</h2>
-          <p className="text-xl mb-8">NextAuth.js와 Next.js로 구현한 소셜 로그인 예제입니다.</p>
           <div className="w-full h-64 relative rounded-lg overflow-hidden">
             {/* 프로젝트 관련 이미지*/}
             <div className="w-full h-full bg-indigo-500 flex items-center justify-center">

@@ -26,7 +26,7 @@ export default function DashboardPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50">
       <div className="w-full max-w-lg p-8 space-y-8 bg-white rounded-lg shadow-md">
-        <h1 className="text-2xl font-bold text-center">대시보드</h1>
+        <h1 className="text-2xl font-bold text-center">로그인 대시보드</h1>
         
         {session?.user ? (
           <div className="space-y-6">

@@ -5,10 +5,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50">
       <main className="max-w-4xl w-full">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4">소셜 로그인 데모</h1>
-          <p className="text-lg text-gray-600">
-            Next.js와 NextAuth.js를 이용한 소셜 로그인 구현 예제입니다.
-          </p>
+          <h1 className="text-4xl font-bold mb-4">소셜 로그인 모듈</h1>
         </div>
 
         <div className="flex justify-center gap-4 mt-8">
@@ -28,7 +25,7 @@ export default function Home() {
       </main>
       
       <footer className="mt-12 text-center text-sm text-gray-500">
-        NextAuth.js와 Next.js를 사용한 소셜 로그인 예제
+        2025 © Team Goggle
       </footer>
     </div>
   );
